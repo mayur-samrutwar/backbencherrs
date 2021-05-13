@@ -1,0 +1,18 @@
+<%- include("header"); %>
+
+<div class="container">
+<form action="/create" method="post">
+  <div class="mb-3">
+    <label class="form-label">ADMIN</label>
+    <input type="text" name="ADMIN" class="form-control" style="width: 200px;">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">PASSWORD</label>
+    <input type="password" name="PASSWORD" class="form-control" style="width: 200px;">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+
+<%- include("footer"); %>

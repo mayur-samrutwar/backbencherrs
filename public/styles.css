@@ -1,0 +1,14 @@
+  #navbar-head{
+      background-color: white!important;
+    color: #1a1c20 !important;
+  }
+  body{
+    background-color: #f7f7f7 !important;
+    transition-duration: 1s;
+  }
+  .blog-card{
+      background-color: white;
+  }
+  .footer-btm{
+      background-color: white !important;
+  }
